@@ -1,4 +1,4 @@
-# [ Stock-market-analysis-working-](https://instgram-post.netlify.app/)
+# [ Stock-market-analysis-working-](https://stock-market-analysisss.netlify.app/)
 
 Stock Market Analysis
 This project is a stock market analysis tool that allows users to view stock performance over different time periods, including 1 month, 3 months, 1 year, and 5 years. The application fetches real-time stock data and displays it on an interactive chart, offering insights into book values, profit margins, and stock summaries.
