@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Market Analysis</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Stock Market Analysis</h1>
+    <div class="container">
+      <div class="combo">
+        <div class="box left-box">
+          <canvas class="useful"></canvas>
+          <div class="btns">
+            <button class="btn-1mon">1 mon</button>
+            <button class="btn-3mon">3 mon</button>
+            <button class="btn-1year">1 year</button>
+            <button class="btn-5year">5 year</button>
+          </div>
+        </div>
+        <div class="details">
+          <div class="trio">
+            <span class="one w"><b></b></span>
+            <!-- Stock name -->
+            <span class="two w"></span>
+            <!-- Book value -->
+            <span class="three"></span>
+            <!-- Profit -->
+          </div>
+          <div class="content w"></div>
+        </div>
+      </div>
+      <div class="box right-box"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
